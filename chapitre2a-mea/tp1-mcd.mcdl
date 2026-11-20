@@ -5,7 +5,7 @@
     {
       "Id": "c4f07b6d-4a56-4a4b-a717-7937ecf7a2cd",
       "Nom": "EMLOY\u00C9",
-      "X": 340,
+      "X": 310,
       "Y": 140,
       "Attributs": [
         {
@@ -28,8 +28,8 @@
     {
       "Id": "0a14dcd6-5648-4d5d-85cc-aec643a605fe",
       "Nom": "SERVICE",
-      "X": 640,
-      "Y": 140,
+      "X": 840,
+      "Y": 170,
       "Attributs": [
         {
           "Nom": "Code",
@@ -44,5 +44,25 @@
       ]
     }
   ],
-  "Associations": []
+  "Associations": [
+    {
+      "Pattes": [
+        {
+          "EntiteId": "c4f07b6d-4a56-4a4b-a717-7937ecf7a2cd",
+          "Cardinalite": "0,1",
+          "Role": ""
+        },
+        {
+          "EntiteId": "0a14dcd6-5648-4d5d-85cc-aec643a605fe",
+          "Cardinalite": "1,n",
+          "Role": ""
+        }
+      ],
+      "Id": "5039acf4-4243-481e-98b4-60b1903a7051",
+      "Nom": "TRAVAILLER",
+      "X": 590,
+      "Y": 170,
+      "Attributs": []
+    }
+  ]
 }
